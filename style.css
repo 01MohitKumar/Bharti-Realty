@@ -220,17 +220,17 @@ section#features article .img-wrap {
   justify-content: center;
   align-items: center;
   background: #8ea9bc;
-  flex: 3;
+  flex: 1;
+  padding: 60px;
 }
 
 section#features article > div.detail {
-  flex: 2;
-  padding: 61px;
+  padding: 60px;
+  flex: 1;
 }
 
 section#features article .img-wrap > img {
-  width: 400px;
-  height: 400px;
+  width: 60%;
 }
 
 section#features article.two {
@@ -246,14 +246,6 @@ section#features article.two .detail .heading h3,
 section#features article.two .detail .heading h4,
 section#features article.two .detail p {
   color: #fff;
-}
-
-section#features article.two > img {
-  flex: 2;
-}
-
-section#features article.two > div.detail {
-  flex: 3;
 }
 
 section#features article .detail .heading {
@@ -296,7 +288,7 @@ section.compliances {
 
 section.compliances .detail {
   flex: 1;
-  padding-right: 80px;
+  /* padding-right: 80px; */
 }
 section.compliances .detail h3 {
   color: #242424;
