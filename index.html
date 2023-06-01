@@ -12,6 +12,7 @@
 <body>
     <header>
         <nav class="navbar">
+            <div class="logo"><a href="#">Logo</a></div>
             <ul>
                 <li> <a href="#about">About Us</a>
                 </li>
@@ -20,8 +21,22 @@
                 </li>
                 <li><a href="#">Corporate</a></li>
             </ul>
-            <button><a href="#contact">Contact Us</a></button>
+            <button class="action-btn"><a href="#contact">Contact Us</a></button>
+            <div class="toggle-btn">
+                <img src="./images/menu.png" alt="menu">
+            </div>
         </nav>
+        <div class="dropdown-menu">
+            <ul>
+                <li> <a href="#about">About Us</a>
+                </li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#">Vendors</a>
+                </li>
+                <li><a href="#">Corporate</a></li>
+            </ul>
+            <button class="action-btn"><a href="#contact">Contact Us</a></button>
+        </div>
         <hr>
     </header>
     <main>
@@ -204,6 +219,7 @@
                     <li>ABOUT US</li>
                     <li>FEATURES</li>
                     <li>COMPLIANCES</li>
+
                 </ul>
                 <ul>
                     <li>VENDORS</li>
@@ -221,6 +237,8 @@
             </div>
         </section>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
