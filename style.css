@@ -142,7 +142,7 @@ header {
 }
 
 .toggle-btn {
-  width: 20px;
+  font-size: 1.5rem;
   cursor: pointer;
   display: none;
 }

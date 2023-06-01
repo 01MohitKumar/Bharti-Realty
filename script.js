@@ -6,5 +6,5 @@ toggleBtn.onclick = function () {
   dropdownMenu.classList.toggle("open");
   const isOpen = dropdownMenu.classList.contains("open");
 
-  toggleBtnIcon.src = isOpen ? "./images/close.png" : "./images/menu.png";
+  toggleBtnIcon.classList = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
 };
